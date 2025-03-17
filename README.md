@@ -11,8 +11,6 @@ SecureAuth is a **SwiftUI-based authentication app** that allows users to enter 
 - [Usage](#usage)  
 - [Video Demonstration](#video-demonstration)  
 - [Screenshots](#screenshots)  
-- [Future Enhancements](#future-enhancements)  
-- [Contributing](#contributing)  
 - [License](#license)  
 
 ---
@@ -157,17 +155,6 @@ Or on Windows:
 ipconfig
 ```
 
-### **How to Update the URL in Swift**
-Modify `NetworkManager.swift`:
-```swift
-import Foundation
-
-struct NetworkManager {
-    static let isSimulator = TARGET_OS_SIMULATOR != 0
-    static let serverURL = isSimulator ? "http://127.0.0.1:5000" : "http://192.168.X.X:5000"
-}
-```
-
 ---
 
 ## **Usage**
@@ -196,9 +183,10 @@ curl -X POST http://127.0.0.1:5000/api/validate-token \
 
 ## **Video Demonstration**
 
-📹 A video demonstration of the app in action will be available at:
+📹 **A video demonstration of the app in action will be available at:**  
+🔗 [SecureAuth Demo Video](https://your-username.github.io/your-repo/)
 
-<iframe src="https://drive.google.com/file/d/1pSN5y73Zp9Ddm189tyKCBnX4YJb_Sp7e/preview" width="640" height="360"></iframe>
+
 
 
 ---
