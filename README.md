@@ -202,7 +202,6 @@ curl -X POST http://127.0.0.1:5000/api/validate-token \
 |--------------|-----------------|
 | ![Login](./SecureAuth/Screenshots/loginscreen.jpeg) | ![Success](./SecureAuth/Screenshots/success.jpeg) |
 
----
 
 ## **License**
 This project is licensed under the **MIT License**.  
