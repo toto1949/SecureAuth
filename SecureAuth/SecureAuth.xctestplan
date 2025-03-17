@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "4137D8D8-4192-4E2A-AF1B-7C269264D102",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SecureAuth.xcodeproj",
+      "identifier" : "44483A542D874EB600F92B38",
+      "name" : "SecureAuth"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SecureAuth.xcodeproj",
+        "identifier" : "44483A642D874EB900F92B38",
+        "name" : "SecureAuthTests"
+      }
+    }
+  ],
+  "version" : 1
+}
