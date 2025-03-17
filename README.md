@@ -199,9 +199,8 @@ curl -X POST http://127.0.0.1:5000/api/validate-token \
 
 ## **Screenshots**
 | Login Screen | Success Message |
-|--------------|---------------|
-| ![Login](https://via.placeholder.com/200) | ![Success](https://via.placeholder.com/200) |
-
+|--------------|-----------------|
+| ![Login](./SecureAuth/Screenshots/loginscreen.jpeg) | ![Success](./SecureAuth/Screenshots/success.jpeg) |
 
 ---
 
