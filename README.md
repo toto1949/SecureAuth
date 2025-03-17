@@ -70,9 +70,12 @@ cd SecureAuth
 ## **Project Structure**
 ```
 SecureAuth/
-│── SecureAuth/                  
-│   ├── SecureAuthApp.swift           # Entry point of the app
-│   ├── ContentView.swift             # Main UI screen
+│── SecureAuth/ 
+|   |── Screenshots/
+|      ├── success.jpeg 
+|      ├── loginscreen.jpeg  
+|               
+│   ├── SecureAuthApp.swift           # Entry point of the app            
 │   │
 │   ├── Views/                        # UI components
 │   │   ├── ContentView.swift         # Main app view
@@ -192,8 +195,11 @@ curl -X POST http://127.0.0.1:5000/api/validate-token \
 ---
 
 ## **Video Demonstration**
-📹 A video demonstration of the app in action will be available at:  
-**[Add Video Link Here]**  
+
+📹 A video demonstration of the app in action will be available at:
+
+<iframe src="https://drive.google.com/file/d/1pSN5y73Zp9Ddm189tyKCBnX4YJb_Sp7e/preview" width="640" height="360"></iframe>
+
 
 ---
 

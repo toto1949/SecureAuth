@@ -11,7 +11,7 @@ def validate_token():
 
         if token_str:
             try:
-                token_data = json.loads(token_str)  # This is where the error occurred
+                token_data = json.loads(token_str)
                 userId = token_data.get("userId", "")
                 deviceId = token_data.get("deviceId", "")
                 expiresAt = token_data.get("expiryDate", 0)
@@ -26,4 +26,4 @@ def validate_token():
             return jsonify({"error": "No token provided"}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5002)  # Specify the port and host here
+    app.run(debug=True, host='0.0.0.0', port=5002)  
